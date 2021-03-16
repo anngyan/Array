@@ -1,0 +1,23 @@
+<html> 
+    <head> 
+        <title>Array</title>
+    </head>
+    <body>
+        <script>
+            let a=[], x = prompt("Ներմուծեք թվերը(թվերն անջատեք իրարից միայն ստորակետով)");
+            a=x;
+            let y = [], i=0, j=0;
+            y[0]="";
+            while(i<a.length){
+                if(a[i]!==","){
+                y[j]=y[j]+a[i];
+                i=i+1; }
+                else {j = j+1;
+                 y[j]="";
+                 i=i+1;}
+            } 
+            alert(y);
+            console.log(y);
+        </script>
+    </body>
+</html>
